@@ -5,7 +5,7 @@ import sys, random
 num = random.randint(1, 100) #generates a random number between 1 and 100 (both inclusive)
 prev_inp = 0
 count = 1
-for_more = {
+msg_greater = {
 	5: "Wow, you're REALLY close. Try entering a slightly smaller number",
 	10: "Ooh, you're close. But your number is still large",
 	30: "The number you entered is large! Try entering a smaller one",
@@ -13,7 +13,7 @@ for_more = {
 	99: "Your number is w-a-a-a-y too large. Try entering a smaller one"	
 }
 
-for_less = {
+msg_lower = {
 	5: "Wow, you're REALLY close. Try entering a slightly larger number",
 	10: "Ooh, you're close. But your number is still small",
 	30: "The number you entered is small! Try entering a larger one",
